@@ -13,8 +13,8 @@
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 
 ;; Themes
-(disable-theme 'zen-burn)
-(load-theme 'solarized-dark t)
+;(disable-theme 'zen-burn)
+;(load-theme 'solarized-dark t)
 
 (provide 'init-local)
 ;;; init-local.el ends here
