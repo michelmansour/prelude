@@ -11,5 +11,8 @@
 
 (setq prelude-clean-whitespace-on-save nil)
 
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+(define-key global-map (kbd "C-c o f") 'find-file-at-point)
+
 (provide 'init-local)
 ;;; init-local.el ends here
